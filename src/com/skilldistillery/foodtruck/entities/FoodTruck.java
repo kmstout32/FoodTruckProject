@@ -11,7 +11,7 @@ public class FoodTruck {
 	public FoodTruck() {
 		
 	}
-	
+	//constructor
 	public FoodTruck(String name, int rating, String foodCategory) {
 		this.name = name; 
 		this.foodCategory = foodCategory;
@@ -57,6 +57,4 @@ public class FoodTruck {
 	public void setRating(int rate) {
 		this.rating = rate;
 	}
-	
-	
 }
